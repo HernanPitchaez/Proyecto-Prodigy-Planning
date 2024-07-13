@@ -1,0 +1,101 @@
+.fc-daygrid-event {
+    padding: 0px!important;
+    height: 100%!important; 
+    width: 100%!important;
+    display: flex!important;
+    flex-direction: column!important;
+    justify-content: center!important;
+    align-items: center!important;
+    border: none !important;
+    background-color: transparent !important;
+  }
+
+  .fc-daygrid-day-number {
+    font-size: 20px;
+  }
+
+  .custom-toolbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .custom-toolbar.fc-toolbar-chunk:last-child {
+    margin-left: 20px; 
+  }
+
+  .fc-toolbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 500px;
+    
+  }
+  
+   .fc-button-group {
+    margin-right: 8px;
+    background-color: #42a5f5;
+  }
+  
+  .fc-toolbar-title {
+    text-transform: capitalize;
+    font-weight: bold;
+  }
+
+  .fc-daygrid-day {
+    height: 160px; 
+    width: 170px; 
+  }
+
+  .fc-daygrid-event > div {
+    background-size: cover!important;
+    background-position: center!important;
+    width: 95%!important;
+    background-color: #fff;
+    margin-top: 3px;
+  }
+
+  .dia-actual {
+    padding: 0.em;
+    border-radius: 50px; 
+    background-color: #42a5f5; 
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    color: white; 
+    font-size: 20px; 
+    font-weight: bold; 
+  }
+
+  .image-container {
+    max-height: 100px;
+    overflow: hidden;
+  }
+
+  .music-event {
+    background-color: rgb(206, 106, 106) !important;
+  }
+  
+  .sport-event {
+    background-color: rgb(76, 76, 232) !important;
+  }
+
+  .tecno-event {
+    background-color: rgb(91, 91, 169) !important;
+  }
+
+  .conference-event {
+    background-color: rgb(105, 206, 125) !important;
+  }
+
+  .gastronomy-event {
+    background-color: rgb(183, 185, 25) !important;
+  }
+
+  .entertainment-event {
+    background-color: rgb(219, 139, 48) !important;
+  }
+
+  .others-event {
+    background-color: rgb(219, 48, 48) !important;
+  }
